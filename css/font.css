@@ -1,0 +1,11 @@
+.font {
+  font-size: 45px;
+  padding: px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.font2 {
+  font-size: 20px;
+  font-weight: bold;
+}
