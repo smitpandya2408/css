@@ -13,13 +13,20 @@
       /* .main-container p {
         background-color: aqua;
       } */
+
+      /* child selector */
       .main-container > p {
         background-color: aqua;
       }
 
       /* //psuedo class */
-      p:hover{
+      p:hover {
         background-color: brown;
+      }
+
+      /* Descendant  selector */
+      div p {
+        background-color: blue;
       }
 
       /* psuedo elements */
@@ -46,15 +53,17 @@
         content: "hello world";
       } */
 
-      p::selection{
+      p::selection {
         background-color: pink;
       }
 
+      div + p {
+        background-color: yellowgreen;
+      }
     </style>
   </head>
   <body>
-
-    <div  class="main-container">
+    <div class="main-container">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis
         delectus culpa, quas quibusdam voluptate sit, earum corrupti sunt sed
@@ -62,7 +71,12 @@
         expedita pariatur? Dolor.
       </p>
       <div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione porro dolorum totam a iusto ipsum est animi nobis similique, hic nihil soluta dolor. Perspiciatis, voluptates? Doloremque beatae hic dolorem dicta.</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+          porro dolorum totam a iusto ipsum est animi nobis similique, hic nihil
+          soluta dolor. Perspiciatis, voluptates? Doloremque beatae hic dolorem
+          dicta.
+        </p>
       </div>
     </div>
 
@@ -121,5 +135,12 @@
         nobis?
       </p>
     </div>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde corrupti est suscipit. Voluptates nostrum veniam quis molestiae ea fuga repellat corporis aliquam, cupiditate architecto, sed laborum culpa odio vero.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, deserunt incidunt! Accusantium in omnis ex eius dicta temporibus cupiditate quam quo sint magni? Esse iure, nobis blanditiis repudiandae officia veritatis!</p>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium voluptas eum magnam perspiciatis distinctio nostrum? Ipsa libero est perferendis, fugit quaerat quibusdam nam eum dolorum amet quia ratione eos recusandae.</p>
   </body>
 </html>
