@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        position: relative;
+      }
+      .main-container {
+        background-color: black;
+        height: 500px;
+        width: 500px;
+        position: relative;
+      }
+      .box1 {
+        height: 150px;
+        width: 150px;
+        background-color: red;
+        position: absolute;
+        /* bottom: 0;
+        right: 0; */
+      }
+      .box2 {
+        height: 150px;
+        width: 300px;
+        background-color: blue;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+      }
+      p {
+        color: white;
+      }
+      .box11 {
+        background-color: aqua;
+        height: 500px;
+        width: 900px;
+        position: absolute;
+        z-index: -1;
+      }
+      .box12 {
+        background-color: rgb(102, 255, 0);
+        height: 500px;
+        width: 600px;
+        position: absolute;
+        z-index: 6;
+      }
+      .box13{
+        background-color: rgb(216, 12, 5);
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        z-index: -1;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>position</h1>
+    <div class="main-container">
+      <div class="box1"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+        doloribus? Quis pariatur nisi atque ad, minus quos voluptas ipsum
+        debitis assumenda ab quia reiciendis doloremque explicabo, aliquam, odit
+        est quidem!
+      </p>
+      <div class="box2"></div>
+    </div>
+
+    <div style="height: 800px; width: 100%; background-color: blueviolet">
+      <div class="sticky">sticky</div>
+    </div>
+    <div class="main-container"></div> -->
+
+    <h2>Z index</h2>
+
+    <div class="box11"></div>
+    <div class="box12"></div>
+    <div class="box13"></div>
+  </body>
+</html>
