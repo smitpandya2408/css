@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <style>
+      .main-container {
+        width: 100%;
+        height: 500px;
+        background-color: aquamarine;
+        display: flex;
+        gap: 5%;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* flex-wrap: nowrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-flow: column wrap; */
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .pink {
+        background-color: pink;
+      }
+      .main-cont {
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+
+        /* align-items: center; */
+        /* flex-direction: column;
+        align-items: center; */
+      }
+      .overflow {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(58, 175, 196);
+        /* overflow: hidden; */
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="box red"></div>
+      <div class="box green"></div>
+      <div class="box pink"></div>
+      <div class="box blue"></div>
+      <!-- <div class="box green"></div> -->
+    </div>
+
+    <div class="main-cont">
+      <div class="box red"></div>
+    </div>
+
+    <div class="overflow">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum illum
+      nostrum recusandae nisi voluptates, sequi quae laborum quas pariatur iusto
+      fugiat eos iure quidem vel aut. Sint at eos quos. In hic quaerat saepe
+      accusantium ipsam non minima quibusdam cumque quo dolor fugiat
+      exercitationem, error laboriosam nulla, praesentium nemo quae eligendi,
+      eius eos inventore earum. Sunt ullam voluptatum temporibus assumenda.
+      Sint, non deleniti! Quidem libero nobis ratione mollitia. Provident earum,
+      dolor obcaecati deleniti, ipsam dolores corporis voluptate dignissimos
+      nemo ut eveniet rem vitae sequi, hic perferendis voluptates ratione illo
+      ab? Quo dolore perspiciatis ut, provident et vero ullam cum porro! Nulla
+      ab dignissimos sed, voluptas quidem nobis alias in sint, vero, sapiente
+      numquam quia quaerat magnam quas aut autem reiciendis! Aliquam assumenda
+      accusantium mollitia vel. Ut possimus illum eum. Rem, voluptatem voluptas
+      consequatur corporis quisquam ipsa assumenda quis, illo id iste mollitia
+      nam atque, vel doloribus unde error exercitationem quam? Lorem ipsum dolor
+      sit amet consectetur, adipisicing elit. Alias minima ad ratione eius
+      veritatis, quod saepe sequi repellendus, omnis obcaecati, consequatur
+      eveniet maiores. Iste culpa magnam vero impedit? Sint, nemo ut eveniet rem
+      vitae sequi, hic perferendis voluptates ratione illo ab? Quo dolore
+      perspiciatis ut, provident et vero ullam cum porro! Nulla ab dignissimos
+      sed, voluptas quidem nobis alias in sint, vero, sapiente numquam quia
+      quaerat magnam quas aut autem reiciendis! Aliquam assumenda accusantium
+      mollitia vel. Ut possimus illum eum. Rem, voluptatem voluptas consequatur
+      corporis quisquam ipsa assumenda quis, illo id iste mollitia nam atque,
+      vel doloribus unde error exercitationem quam? Lorem ipsum dolor sit amet
+      consectetur, adipisicing elit. Alias minima ad ratione eius veritatis,
+      quod saepe sequi repellendus, omnis obcaecati, consequatur eveniet
+      maiores. Iste culpa magnam vero impedit? Sint
+    </div>
+    <div style="background-color: blue; height: 500px; width: 500px"></div>
+  </body>
 </html>
